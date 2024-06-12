@@ -16,6 +16,8 @@ tags:
   - music
   - festivals
   - prophethood
+  - celebrations
+  - mawlids
 description:
   Many Muslims celebrate the Prophethood of our Messenger with musical songs just as the Jews and Christians do. They mention Allah while music is played.
 ---
