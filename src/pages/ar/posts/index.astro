@@ -4,7 +4,7 @@ import Posts from "@layouts/Posts.astro";
 import getSortedPosts from "@utils/getSortedPosts";
 import getPagination from "@utils/getPagination";
 
-const posts = await getCollection("articles");
+const posts = await getCollection("ar");
 
 const sortedPosts = getSortedPosts(posts);
 
