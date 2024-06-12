@@ -1,14 +1,14 @@
 ---
 author: Dr. Rashid Al-Almani
 pubDatetime: 2024-06-10
-modDatetime: 2024-06-10
+modDatetime: 2024-06-12
 hijriDate: 04 Dhul-Hijjah 1445
 title: How To Achieve Tawhid
 slug: fatwa-595
 featured: false
 draft: false
 source: Fatawa Nur Ala Al-Darb 595
-muftis: Shaykh Ibn Baz
+muftis: Sh. Ibn Baz
 output: html_document
 audio: https://files.zadapps.info/binbaz.org.sa/fatawa/nour_3la_aldarb/nour_595/59520.mp3
 tags:
