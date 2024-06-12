@@ -10,7 +10,7 @@ import Socials from "@components/Socials.astro";
 import getSortedPosts from "@utils/getSortedPosts";
 import { SOCIALS } from "@config";
 
-const posts = await getCollection("articles");
+const posts = await getCollection("ar");
 
 const sortedPosts = getSortedPosts(posts);
 const featuredPosts = sortedPosts.filter(({ data }) => data.featured);
@@ -45,7 +45,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
     {
       recentPosts.length > 0 && (
         <section id="recent-posts">
-          <h2>Recent Fatwas</h2>
+          <h2>فتاوى</h2>
           <ul>
             {recentPosts.map(
               ({ data, slug }, index) =>
