@@ -18,7 +18,7 @@ tags:
   - qadianis
   - jesus
 description:
-  Surely, in disbelief are they who say that Allâh is the Messiah, son of Mary.
+  لقد كفر الذين قالوا إن الله هو المسيح ابن مريم .
 ---
 
 ### السؤال
