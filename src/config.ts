@@ -7,7 +7,7 @@ export const SITE: Site = {
   title: "Manhaj of The Salaf",
   ogImage: "astropaper-og.jpg",
   lightAndDarkMode: true,
-  postPerPage: 3,
+  postPerPage: 10,
   scheduledPostMargin: 15 * 60 * 1000, // 15 minutes
 };
 
