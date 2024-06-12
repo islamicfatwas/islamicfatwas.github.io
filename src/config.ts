@@ -3,8 +3,8 @@ import type { Site, SocialObjects } from "./types";
 export const SITE: Site = {
   website: "https://salafmanhaj.github.io/", // replace this with your deployed domain
   author: "Dr.Rashid Al-Almani",
-  desc: "Knowledge of the Shariah",
-  title: "The Manhaj of The Salaf",
+  desc: "Knowledge of Shariah",
+  title: "Manhaj of The Salaf",
   ogImage: "astropaper-og.jpg",
   lightAndDarkMode: true,
   postPerPage: 3,
