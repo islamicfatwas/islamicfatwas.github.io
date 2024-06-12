@@ -2,7 +2,7 @@
 author: Dr. Rashid Al-Almani
 pubDatetime: 2021-05-03
 modDatetime: 2021-05-03
-hijriDate: 21 Ramadhan 1442
+hijriDate: 21 Ramadan 1442
 title: What Is The Meaning Of Bid'ah?
 slug: fatwa-17522
 featured: false
