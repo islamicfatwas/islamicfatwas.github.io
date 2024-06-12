@@ -1,7 +1,7 @@
 ---
 author: Dr. Rashid Al-Almani
-pubDatetime: 2024-07-12
-modDatetime: 2024-07-12
+pubDatetime: 2023-07-12
+modDatetime: 2023-07-12
 hijriDate: 24 Dhul-Hijjah 1444
 title: The Origin of The Forty-Day Anniversary
 slug: fatwa-398
