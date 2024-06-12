@@ -12,8 +12,10 @@ muftis: Sh.Ibn Baz, Sh.Abdul-Razzaq Afifi
 tags:
   - binbaz
   - fatwas
-  - festivals
-  - funerals
+  - bidah
+  - engagement
+  - marriage
+  - women
 description:
   Reciting Al-Fatihah at the time of a man's proposal to a woman or at the time of his marriage contract with her is bid'ah.
 ---
