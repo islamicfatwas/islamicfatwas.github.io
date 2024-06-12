@@ -233,4 +233,4 @@ Also Al-Bukhari and others narrated on the authority of ‘Aishah (may Allah be 
 
 From all this it becomes clear to the person asking these questions that he should refer to the previously explained Ayahs to understand the rest of the similar Ayahs. May Allah grant us success. May peace and blessings be upon our Prophet Muhammad, his family, and Companions.
 
-[^1]: Al-Bukhari, Sahih, Book on Tafsir, no. 4547; Muslim, Sahih, Book on knowledge, no. 2665; Al-Tirmidhy, Sunan, Book on Tafsir, no. 2994; Abu Dawud, Sunan, Book on Al-Sunnah, no. 4598; Ibn Majah, Sunan, Introduction, no. 47; Ahmad, Musnad, vol. 6, p. 48; and Al-Darimy, Sunan Introduction, no. 145. 
+[^1]: Sahih Al-Bukhari (Book on Tafsir) no. 4547; Sahih Muslim (Book on knowledge) no. 2665; At-Tirmidhi (Book on Tafsir) no. 2994; Abu Dawud (Book on As-Sunnah) no. 4598; Ibn Majah (Introduction)no. 47; Musnad Ahmad 6/48; Ad-Darimi (Introduction) no. 145.
