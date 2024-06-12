@@ -1,8 +1,8 @@
 ---
 author: Dr.  Rashid Al-Almani
-pubDatetime: 2024-06-09
-modDatetime: 2024-06-09
-hijriDate: 03 Dhul-Hijjah 1445
+pubDatetime: 2023-07-20
+modDatetime: 2023-07-20
+hijriDate: 02 Muharam 1445
 title: Ruling on Celebrating Valentine’s Day
 slug: fatwa-21203
 featured: false
