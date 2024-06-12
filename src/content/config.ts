@@ -13,6 +13,7 @@ const blog = defineCollection({
       source: z.string(),
       muftis: z.string(),
       featured: z.boolean().optional(),
+      reference: z.string().optional(),
       draft: z.boolean().optional(),
       tags: z.array(z.string()).default(["others"]),
       ogImage: image()
