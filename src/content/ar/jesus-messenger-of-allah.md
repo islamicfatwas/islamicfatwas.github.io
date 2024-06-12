@@ -1,22 +1,18 @@
 ---
-author: 26Mar1982
+author: Dr. Rashid Al-Amani
 pubDatetime: 2024-06-09
 modDatetime: 2024-06-09
 hijriDate: 03 ذو الحجة 1445
 title: ما المسيح ابن مريم إلا رسول
-slug: ar-fatwas-1621
+slug: fatwas-1621
 featured: false
 draft: false
+reference: /posts/fatwa-1621/
 source: فتاوى اللجنة الدائمة 1621 س7
 muftis: الشيخ ابن باز ، الشيخ عبدالرزاق عفيفي ، الشيخ عبدالله بن غديان ، الشيخ عبدالله بن قعود 
 tags:
-  - alifta
-  - fatwas
-  - nonmuslims
-  - exegesis
-  - sects
-  - qadianis
-  - jesus
+  - الإفتاء
+  - فتاوى
 description:
   لقد كفر الذين قالوا إن الله هو المسيح ابن مريم .
 ---
