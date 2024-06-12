@@ -2,7 +2,7 @@
 author: 26Mar1982
 pubDatetime: 2024-06-09
 modDatetime: 2024-06-09
-hijriDate: 03 Dhul-Hijjah 1445
+hijriDate: 03 ذو الحجة 1445
 title: ما المسيح ابن مريم إلا رسول
 slug: ar-fatwas-1621
 featured: false
