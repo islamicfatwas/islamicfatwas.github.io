@@ -1,5 +1,5 @@
 ---
-author: Dr.  Rashid Al-Almani
+author: Dr. Rashid Al-Almani
 pubDatetime: 2023-07-20
 modDatetime: 2023-07-20
 hijriDate: 02 Muharam 1445
