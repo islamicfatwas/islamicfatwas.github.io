@@ -13,6 +13,7 @@ interface Props extends DatetimesProps {
 export default function Datetime({
   pubDatetime,
   modDatetime,
+  hijriDate,
   size = "sm",
   className,
 }: Props) {
@@ -41,6 +42,9 @@ export default function Datetime({
           modDatetime={modDatetime}
         />
       </span>
+      <span aria-hidden="true"> | </span>
+      <span className="sr-only">&nbsp;at&nbsp;</span>
+      <span className={`italic ${size === "sm" ? "text-sm" : "text-base"}`}>{hijriDate}</span>
     </div>
   );
 }
@@ -64,9 +68,6 @@ const FormattedDatetime = ({ pubDatetime, modDatetime }: DatetimesProps) => {
   return (
     <>
       <time dateTime={myDatetime.toISOString()}>{date}</time>
-      <span aria-hidden="true"> | </span>
-      <span className="sr-only">&nbsp;at&nbsp;</span>
-      <span className="text-nowrap">{time}</span>
     </>
   );
 };
