@@ -2,18 +2,16 @@
 author: Dr. Rashid Al-Almani
 pubDatetime: 2024-06-12
 modDatetime: 2024-06-12
-hijriDate: 05 Dhul-Hijjah 1445
+hijriDate: 06 Dhul-Hijjah 1445
 title: Jesus Was No More Than A Messenger Of Allah
-slug: fatwas-1621
+slug: fatwa-1621
 featured: false
 draft: false
 source: Fatawa Al-Lajnah Ad-Da'imah no. 1621, Question 7
-muftis: Shaykh Ibn Baz, Shaykh Abdul-Razzaq Al-Afifi, Shaykh Abdullah ibn Ghudayyan, Shaykh Abdullah ibn Qa'ud
+muftis: Sh.Ibn Baz, Sh.Abdul-Razzaq Al-Afifi, Sh.Abdullah ibn Ghudayyan, Sh.Abdullah ibn Qa'ud
 tags:
   - alifta
   - fatwas
-  - nonmuslims
-  - exegesis
   - sects
   - qadianis
   - jesus
