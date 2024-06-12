@@ -7,11 +7,11 @@ import getPageNumbers from "@utils/getPageNumbers";
 import getPagination from "@utils/getPagination";
 
 export interface Props {
-  post: CollectionEntry<"articles">;
+  post: CollectionEntry<"ar">;
 }
 
 export async function getStaticPaths() {
-  const posts = await getCollection("articles", ({ data }) => !data.draft);
+  const posts = await getCollection("ar", ({ data }) => !data.draft);
 
   const postResult = posts.map(post => ({
     params: { slug: post.slug },
@@ -28,7 +28,7 @@ export async function getStaticPaths() {
 const { slug } = Astro.params;
 const { post } = Astro.props;
 
-const posts = await getCollection("articles");
+const posts = await getCollection("ar");
 
 const sortedPosts = getSortedPosts(posts);
 
