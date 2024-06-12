@@ -3,18 +3,18 @@ author: Dr. Rashid Al-Almani
 pubDatetime: 2021-05-03
 modDatetime: 2021-05-03
 hijriDate: 21 Ramadhan 1442
-title: What is the meaning of Bid'ah?
+title: What Is The Meaning Of Bid'ah?
 slug: fatwa-17522
 featured: false
 draft: false
-source: Fatawa Al-Lajnah Ad-Da'imah no.17522, Question 1
+source: Fatawa Al-Lajnah Ad-Da'imah, Fatwa no.17522, Question 1
 muftis: Sh.Ibn Baz, Sh.Abdul-Aziz Aal Al-Shaykh, Sh.Salih Al-Fawzan, Sh.Bakr Abu Zayd
 tags:
   - alifta
   - fatwas
   - bidah
 description:
-  This is not permissible, for music in itself is haram and making supplications accompanied by music is mockery and mixing worship with amusement. 
+  What is the meaning of Bid'ah? We want you to define this term clearly.
 ---
 
 ### Question: 
@@ -25,7 +25,7 @@ What is the meaning of Bid'ah? We want you to define this term clearly. Indeed, 
 
 The word Bid'ah (innovation in religion) is literally taken from Al-Bid` which is initiating something without any precedent, as Allah (Exalted be He) says: "**The Originator of the heavens and the earth.**" [Al-Baqarah: 117] This means that it is Allah Who created them in the most beautiful and splendid way without any precedent. 
 
-He (Exalted be He) further says: "**Say (O Muhammad صلى الله عليه وسلم): "I am not a new thing among the Messengers (of Allâh i.e. I am not the first Messenger)**" [Al-Ahqaf: 9] i.e. I am not the first Prophet to receive Revelation from Allah; rather Allah sent Messengers before me to bring glad tidings of Jannah (Paradise) to those who believed and the warning of Hell to those who disbelieved and I am following their way.
+He (Exalted be He) further says: "**Say (O Muhammad صلى الله عليه وسلم): "I am not a new thing among the Messengers (of Allâh i.e. I am not the first Messenger)**" [Qur'an, Al-Ahqaf: 9] i.e. I am not the first Prophet to receive Revelation from Allah; rather Allah sent Messengers before me to bring glad tidings of Jannah (Paradise) to those who believed and the warning of Hell to those who disbelieved and I am following their way.
 
 There are two kinds of innovation:
 1. The first has to do with customs, such as the invention of modern machinery and this is permissible, because the basic principle with regard to customs is that they are permissible.
