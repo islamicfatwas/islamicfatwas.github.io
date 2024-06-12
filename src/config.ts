@@ -43,7 +43,7 @@ export const SOCIALS: SocialObjects = [
     active: true,
   },
   {
-    name: "RSS",
+    name: "Rss",
     href: "/rss",
     linkTitle: `${SITE.title} on RSS`,
     active: true,
