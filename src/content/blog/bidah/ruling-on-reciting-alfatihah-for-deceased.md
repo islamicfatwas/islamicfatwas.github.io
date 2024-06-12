@@ -13,6 +13,7 @@ tags:
   - binbaz
   - fatwas
   - funerals
+  - bidah
 description:
   There is no report that the Prophet ﷺ recited a surah of the Qur’an or any verses thereof for the dead, even though he visited them often.
 ---
