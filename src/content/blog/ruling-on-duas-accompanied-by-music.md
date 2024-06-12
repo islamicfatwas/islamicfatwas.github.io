@@ -1,5 +1,5 @@
 ---
-author: 26Mar1982
+author: Dr. Rashid Al-Almani
 pubDatetime: 2024-06-09
 modDatetime: 2024-06-09
 hijriDate: 03 Dhul-Hijjah 1445
