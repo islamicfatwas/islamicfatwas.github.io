@@ -1,7 +1,7 @@
 ---
 author: Dr. Rashid Al-Almani
 pubDatetime: 2024-06-10
-modDatetime: 2024-06-12
+modDatetime: 2024-06-10
 hijriDate: 04 Dhul-Hijjah 1445
 title: How To Achieve Tawhid
 slug: fatwa-595
