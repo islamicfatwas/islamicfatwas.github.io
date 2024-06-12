@@ -1,6 +1,6 @@
 ---
 author: Dr. Rashid Al-Almani
-pubDatetime: 202p-11-18
+pubDatetime: 2020-11-18
 modDatetime: 2020-11-18
 hijriDate: 03 Rabi' Al-Thani 1442
 title: Ruling on describing worldly inventions as Bid'ah
