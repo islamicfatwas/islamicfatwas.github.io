@@ -7,7 +7,7 @@ title: The Origin of The Forty-Day Anniversary
 slug: fatwa-398
 featured: false
 draft: false
-source: Majmu’ Fatawa 13/398
+source: Majmu’ Fatawa of Ibn Baz 13/398
 muftis: Sh.Ibn Baz
 tags:
   - binbaz
