@@ -81,10 +81,12 @@ const layoutProps = {
     <article id="article" role="article" class="prose mx-auto mt-8 max-w-3xl">
       <Content />
     </article>
+    <br/>
+    <br/>
     <hr/>
     <div class="my-8">
-     <p>Source: <b>{source}</b></p>
-     <p>Mufti(s): <b>{muftis}</b></p>
+     <p>Source(s) : <b>{source}</b></p>
+     <p>Mufti(s)  : <b>{muftis}</b></p>
     </div>
     <ul class="my-8">
       {tags.map(tag => <Tag tag={slugifyStr(tag)} />)}
