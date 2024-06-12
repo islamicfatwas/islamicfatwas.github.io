@@ -15,6 +15,8 @@ tags:
   - binbaz
   - fatwas
   - audios
+  - bidah
+  - polytheism
 description:
   A Muslim can achieve Tawhid by avoiding sins, all means and elements of polytheism and bid'ah.
 ---
@@ -29,5 +31,4 @@ How can Tawhid (belief in the Oneness of Allah / monotheism) be achieved?
 
 ### Answer: 
 
-A Muslim can achieve Tawhid by avoiding sins, all means and elements of Shirk (associating 
-others with Allah in His Divinity or worship), and Bid'ah (religious innovations).
+A Muslim can achieve Tawhid by avoiding sins, all means and elements of shirk (polytheism), and bid'ah (religious innovations).
