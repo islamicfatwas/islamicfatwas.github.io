@@ -4,7 +4,7 @@ import Layout from "@layouts/Layout.astro";
 import Main from "@layouts/MainRTL.astro";
 import Header from "@components/HeaderRTL.astro";
 import Footer from "@components/Footer.astro";
-import Pagination from "@components/Pagination.astro";
+import Pagination from "@components/PaginationRTL.astro";
 import Card from "@components/Card";
 import { SITE } from "@config";
 
@@ -30,6 +30,7 @@ const { currentPage, totalPages, paginatedPosts } = Astro.props;
   </Main>
 
   <Pagination
+    dir="rtl" 
     {currentPage}
     {totalPages}
     prevUrl={`/ar/posts${currentPage - 1 !== 1 ? "/" + (currentPage - 1) : ""}/`}
