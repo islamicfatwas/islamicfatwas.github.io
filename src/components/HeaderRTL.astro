@@ -15,18 +15,7 @@ const { activeNav } = Astro.props;
   <div class="nav-container">
     <div class="top-nav-wrap">
       <a href="/ar" class="logo whitespace-nowrap">
-        {
-          LOGO_IMAGE.enable ? (
-            <img
-              src={`/assets/${LOGO_IMAGE.svg ? "logo.svg" : "logo.png"}`}
-              alt={SITE.title}
-              width={LOGO_IMAGE.width}
-              height={LOGO_IMAGE.height}
-            />
-          ) : (
-            SITE.title
-          )
-        }
+        منهج السلف الصالح
       </a>
       <nav id="nav-menu">
         <button
@@ -57,12 +46,12 @@ const { activeNav } = Astro.props;
         <ul id="menu-items" class="display-none sm:flex">
           <li>
             <a href="/ar/posts/" class={activeNav === "fatwas" ? "active" : ""}>
-              Fatwas
+              الفتاوى
             </a>
           </li>
           <li>
             <a href="/ar/tags/" class={activeNav === "tags" ? "active" : ""}>
-              Tags
+              التصنيفات
             </a>
           </li>
           <li>
