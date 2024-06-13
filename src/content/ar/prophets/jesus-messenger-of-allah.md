@@ -4,10 +4,10 @@ pubDatetime: 2024-06-09
 modDatetime: 2024-06-09
 hijriDate: 03 ذو الحجة 1445
 title: ما المسيح ابن مريم إلا رسول
-slug: fatwas-1621
+slug: fatwa-1621
 featured: false
 draft: false
-reference: https://salafmanhaj.github.io/posts/fatwas-1621/
+reference: /posts/fatwa-1621/
 source: فتاوى اللجنة الدائمة 1621 س7
 muftis: الشيخ ابن باز ، الشيخ عبدالرزاق عفيفي ، الشيخ عبدالله بن غديان ، الشيخ عبدالله بن قعود 
 tags:
