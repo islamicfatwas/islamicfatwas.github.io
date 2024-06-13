@@ -50,7 +50,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
             {recentPosts.map(
               ({ data, slug }, index) =>
                 index < 4 && (
-                  <Card
+                  <CardRTL
                     href={`/ar/posts/${slug}/`}
                     frontmatter={data}
                     secHeading={false}
