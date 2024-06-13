@@ -187,4 +187,4 @@ description:
 
 
 <hr/>
-[English](../posts/fatwa-1621/)
+[English](https://salafmanhaj.github.io/posts/fatwa-1621/)
