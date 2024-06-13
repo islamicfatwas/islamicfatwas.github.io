@@ -27,7 +27,7 @@ const {
   tags,
   muftis,
   source,
-  reference
+  reference,
 } = post.data;
 
 const { Content } = await post.render();
@@ -46,6 +46,7 @@ const layoutProps = {
   modDatetime,
   hijriDate,
   canonicalURL,
+  reference,
   ogImage: ogUrl,
   scrollSmooth: true,
 };
