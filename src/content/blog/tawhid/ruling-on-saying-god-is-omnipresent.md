@@ -19,6 +19,8 @@ description:
   Saying that Allah exists in all places is the saying of the atheist Al-Hululiyyah (a Sufi sect that believes in indwelling). The foregoing is a false saying and it is tantamount to Kufr (disbelief) in God. 
 ---
 
+[Arabic](https://salafmanhaj.github.io/ar/posts/fatwa-16376/)
+
 ### Question: 
 
 What is the ruling on saying that Allah (Glorified be He) exists everywhere?
