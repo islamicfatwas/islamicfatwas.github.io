@@ -19,7 +19,7 @@ description:
   This is not permissible, for music in itself is haram and making supplications accompanied by music is mockery and mixing worship with amusement. 
 ---
 
-[Arabic]([https://salafmanhaj.github.io/ar/posts/fatwa-6914/](https://salafmanhaj.github.io/ar/posts/fatwa-6914%E2%80%8F/))
+[Arabic](https://salafmanhaj.github.io/ar/posts/fatwa-6914%E2%80%8F/)
 
 ### Question: 
 
