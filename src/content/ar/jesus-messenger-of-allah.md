@@ -7,7 +7,7 @@ title: ما المسيح ابن مريم إلا رسول
 slug: fatwas-1621
 featured: false
 draft: false
-reference: /posts/fatwa-1621/
+reference: https://salafmanhaj.github.io/posts/fatwas-1621/
 source: فتاوى اللجنة الدائمة 1621 س7
 muftis: الشيخ ابن باز ، الشيخ عبدالرزاق عفيفي ، الشيخ عبدالله بن غديان ، الشيخ عبدالله بن قعود 
 tags:
