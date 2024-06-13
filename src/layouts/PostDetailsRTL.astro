@@ -27,7 +27,6 @@ const {
   tags,
   muftis,
   source,
-  reference,
 } = post.data;
 
 const { Content } = await post.render();
@@ -46,7 +45,6 @@ const layoutProps = {
   modDatetime,
   hijriDate,
   canonicalURL,
-  reference,
   ogImage: ogUrl,
   scrollSmooth: true,
 };
@@ -88,8 +86,7 @@ const layoutProps = {
     <hr/>
     <div class="my-8">
      <p>مصدر : <b>{source}</b></p>
-     <p>المفتي : <b>{muftis}</b></p>
-     <p><a href="{reference}">English</a></p>
+     <p>المفتي : <b>{muftis}</b></p>    
     </div>
     <ul class="my-8" dir="rtl">
       {tags.map(tag => <Tag tag={slugifyStr(tag)} />)}
