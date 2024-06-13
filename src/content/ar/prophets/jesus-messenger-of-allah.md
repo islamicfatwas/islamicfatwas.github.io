@@ -187,4 +187,5 @@ description:
 
 
 <hr/>
+
 [English](https://salafmanhaj.github.io/posts/fatwa-1621/)
