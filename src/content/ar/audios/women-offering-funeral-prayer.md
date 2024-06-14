@@ -9,6 +9,7 @@ featured: false
 draft: false
 source: نور على الدرب 599
 muftis: الشيخ بن باز
+issued_by: الشيخ بن باز
 output: html_document
 audio: https://files.zadapps.info/binbaz.org.sa/fatawa/nour_3la_aldarb/nour_599/59907.mp3
 tags:
