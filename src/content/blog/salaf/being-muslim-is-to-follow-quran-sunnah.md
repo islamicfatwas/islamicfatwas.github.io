@@ -7,7 +7,7 @@ title: The Duty Of A Muslim Is To Follow The Teachings Of The Qur'an And Sunnah
 slug: fatwa-4161
 featured: true
 draft: false
-source: Fatawa Al-Lajnah Ad-Daimah no. 4161
+source: Fatawa Al-Lajnah Ad-Daimah, Fatwa no. 4161, Question 1
 muftis: Sh.Ibn Baz, Sh.Abdul-Razzaq Afifi, Sh.Abdullah ibn Ghudayyan, Sh.Abdullah ibn Qa'ud
 tags:
   - alifta
