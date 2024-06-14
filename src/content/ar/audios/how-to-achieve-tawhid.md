@@ -19,6 +19,11 @@ description:
   يحققه باجتناب المعاصي ووسائل الشرك، يحذر وسائل الشرك ويحذر المعاصي ، الحذر من المعاصي والبدع ووسائل الشرك
 ---
 
+<audio controls>
+ <source src="https://files.zadapps.info/binbaz.org.sa/fatawa/nour_3la_aldarb/nour_595/59520.mp3" type="audio/mpeg"/><p>Your browser does not support the audio element.</p>
+</audio>
+
+
 ### السؤال:
 هذا سائل يا سماحة الشيخ، يقول: كيف يحقق المسلم التوحيد؟
 
