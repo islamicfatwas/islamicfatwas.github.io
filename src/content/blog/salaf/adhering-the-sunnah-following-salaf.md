@@ -7,7 +7,7 @@ title: Adhering To The Sunnah And Following The Salaf
 slug: fatwa-16250
 featured: false
 draft: false
-source: Fatawa Al-Lajnah Ad-Daimah no. 16250
+source: Fatawa Al-Lajnah Ad-Daimah no. 16250, Question 1
 muftis: Sh.Ibn Baz, Sh.Abdul-Razzaq Afifi, Sh.Abdullah ibn Ghudayyan, Sh.Abdul-Aziz Aal Al-Shaykh, Sh.Bakr Abu Zayd
 tags:
   - alifta
