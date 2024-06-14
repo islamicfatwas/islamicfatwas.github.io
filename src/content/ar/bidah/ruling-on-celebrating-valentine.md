@@ -8,7 +8,7 @@ slug: fatwa-21203
 featured: false
 draft: false
 source: فتاوى اللجنة الدائمة 2/ 262-264 الفتوى رقم 21203
-muftis: Sh.Abdul-Aziz Aal Al-Shaykh, Sh.Abdullah ibn Ghudayyan, Sh.Salih Al-Fawzan, Sh.Bakr Abu Zayd
+muftis: الشيخ عبد العزيز آل الشيخ ، الشيخ عبد الله بن غديان ، الشيخ صالح الفوزان ، الشيخ بكر أبو زيد 
 tags:
   - alifta
   - fatwas
