@@ -12,9 +12,7 @@ muftis: الشيخ بن باز
 output: html_document
 audio: https://files.zadapps.info/binbaz.org.sa/fatawa/nour_3la_aldarb/nour_595/59520.mp3
 tags:
-  - binbaz
-  - fatwas
-  - audios
+  - صوتيات
 description:
   يحققه باجتناب المعاصي ووسائل الشرك، يحذر وسائل الشرك ويحذر المعاصي ، الحذر من المعاصي والبدع ووسائل الشرك
 ---
