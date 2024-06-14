@@ -22,7 +22,7 @@ description:
  <source src="https://files.zadapps.info/binbaz.org.sa/fatawa/nour_3la_aldarb/nour_599/59907.mp3" type="audio/mpeg"/><p>Your browser does not support the audio element.</p>
 </audio>
 
-###السؤال:
+### السؤال:
 رسالة وصلت إلى البرنامج من المستمعة فاطمة سعيد السرحاني من جيزان، أختنا تسأل جمعًا من الأسئلة، في سؤالها الأول تقول: هل للمرأة أن تصلي على الجنازة أم لا؟
 
 ### الجواب:
