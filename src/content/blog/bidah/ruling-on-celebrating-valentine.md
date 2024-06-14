@@ -1,5 +1,5 @@
 ---
-author: Dr. Rashid Al-Almani
+author: Instagram@Alsalafiyyah
 pubDatetime: 2023-07-20
 modDatetime: 2023-07-20
 hijriDate: 02 Muharam 1445
@@ -19,11 +19,7 @@ description:
 
 ### Question: 
 
-Some people celebrate the fourteenth day of February of each Christian year as the Day of Love (Valentine’s Day), where they exchange gifts of red roses and wear red clothes, and congratulate one another. Some the bakeries make sweets that are red in colour, with hearts drawn on them, and some stores have advertisements for their products that are especially for this day. What is your opinion on the following:
-
-- Celebrating this day
-- Buying things from the stores on this day
-- Storekeepers who are not celebrating it selling things that may be given as gifts to people who are celebrating it?
+Some people celebrate the fourteenth day of February of each Christian year as the Day of Love (Valentine’s Day), where they exchange gifts of red roses and wear red clothes, and congratulate one another. Some the bakeries make sweets that are red in colour, with hearts drawn on them, and some stores have advertisements for their products that are especially for this day. What is your opinion on the following: Celebrating this day, buying things from the stores on this day, storekeepers who are not celebrating it selling things that may be given as gifts to people who are celebrating it?
 
 ### Answer: 
 
