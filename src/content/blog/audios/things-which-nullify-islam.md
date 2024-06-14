@@ -5,7 +5,7 @@ modDatetime: 2020-11-29
 hijriDate: 14 Rabi' Al-Thani 1442
 title: The Things That Nullify One's Islam
 slug: fatwa-414
-featured: false
+featured: true
 draft: false
 source: Fatawa Nur Ala Al-Darb 414
 muftis: Sh. Ibn Baz
