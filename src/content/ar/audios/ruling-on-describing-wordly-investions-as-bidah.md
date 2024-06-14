@@ -11,7 +11,7 @@ source: فتاوى نور على الدرب لابن باز الشريط رقم 
 muftis: الشيخ بن باز
 issued_by: الشيخ بن باز
 output: html_document
-audio: 
+audio: https://files.zadapps.info/binbaz.org.sa/fatawa/nour_3la_aldarb/nour_639/nour_63914.mp3
 tags:
   - صوتيات
   - audios
@@ -20,7 +20,7 @@ description:
 ---
 
 <audio controls>
- <source src="" type="audio/mpeg"/><p>Your browser does not support the audio element.</p>
+ <source src="https://files.zadapps.info/binbaz.org.sa/fatawa/nour_3la_aldarb/nour_639/nour_63914.mp3" type="audio/mpeg"/><p>Your browser does not support the audio element.</p>
 </audio>
 
 ### السؤال:
