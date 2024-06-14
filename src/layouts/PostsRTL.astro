@@ -23,7 +23,7 @@ const { currentPage, totalPages, paginatedPosts } = Astro.props;
     <ul>
       {
         paginatedPosts.map(({ data, slug }) => (
-          <Card href={`/ar/posts/${slug}/`} frontmatter={data} />
+          <Card href={`/ar/fatwas/${slug}/`} frontmatter={data} />
         ))
       }
     </ul>
@@ -33,8 +33,8 @@ const { currentPage, totalPages, paginatedPosts } = Astro.props;
     dir="rtl" 
     {currentPage}
     {totalPages}
-    prevUrl={`/ar/posts${currentPage - 1 !== 1 ? "/" + (currentPage - 1) : ""}/`}
-    nextUrl={`/ar/posts/${currentPage + 1}/`}
+    prevUrl={`/ar/fatwas${currentPage - 1 !== 1 ? "/" + (currentPage - 1) : ""}/`}
+    nextUrl={`/ar/fatwas/${currentPage + 1}/`}
   />
 
   <Footer noMarginTop={totalPages > 1} />
