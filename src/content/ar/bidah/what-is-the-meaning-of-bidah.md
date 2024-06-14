@@ -8,7 +8,7 @@ slug: fatwa-17522
 featured: true
 draft: false
 source: فتاوى اللجنة الدائمة السؤال الأول من الفتوى رقم 17522
-muftis: Sh.Ibn Baz, Sh.Abdul-Aziz Aal Al-Shaykh, Sh.Salih Al-Fawzan, Sh.Bakr Abu Zayd
+muftis: الشيخ بن باز ، الشيخ عبد العزيز آل الشيخ ، الشيخ صالح الفوزان ، الشيخ بكر أبو زيد
 tags:
   - alifta
   - fatwas
