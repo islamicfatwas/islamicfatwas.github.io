@@ -13,6 +13,7 @@ output: html_document
 audio: https://files.zadapps.info/binbaz.org.sa/fatawa/nour_3la_aldarb/nour_595/59520.mp3
 tags:
   - صوتيات
+  - audios
 description:
   يحققه باجتناب المعاصي ووسائل الشرك، يحذر وسائل الشرك ويحذر المعاصي ، الحذر من المعاصي والبدع ووسائل الشرك
 ---
