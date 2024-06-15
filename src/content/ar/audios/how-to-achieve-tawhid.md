@@ -1,5 +1,5 @@
 ---
-author: Dr. Rashid Al-Almani
+author: alsalafiyyah@icloud.com
 pubDatetime: 2024-06-10
 modDatetime: 2024-06-10
 hijriDate: 04 ذو الحجة 1445
@@ -10,6 +10,7 @@ draft: false
 source: نور على الدرب 595
 muftis: الشيخ بن باز
 output: html_document
+AudioPlayer: true
 audio: https://files.zadapps.info/binbaz.org.sa/fatawa/nour_3la_aldarb/nour_595/59520.mp3
 tags:
   - صوتيات
