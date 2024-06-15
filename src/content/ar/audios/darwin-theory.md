@@ -10,7 +10,7 @@ draft: false
 source: نور على الدرب 175
 output: html_document
 audio: https://files.zadapps.info/binbaz.org.sa/fatawa/nour_3la_aldarb/nour_175/17501.mp3
-muftis: Sh.Ibn Baz
+muftis: الشيخ بن باز
 tags:
   - صوتيات
 description:
