@@ -12,10 +12,6 @@ export interface Props {
   post: CollectionEntry<"ar">;
 }
 
-export type AudioPlayer = {
-  active: boolean;
-}
-
 const { post } = Astro.props;
 
 const {
@@ -84,15 +80,6 @@ const layoutProps = {
       className="my-2"
     />
     <article id="article" role="article" class="prose mx-auto mt-8 max-w-3xl">
-       {
-          AudioPlayer.enable ? (
-            <audio controls>
-             <source src="{audio}" type="audio/mpeg"/><p>Your browser does not support the audio element.</p>
-            </audio>
-          ) : (
-            SITE.title
-          )
-        }
       <Content />
     </article>
     <br/>
