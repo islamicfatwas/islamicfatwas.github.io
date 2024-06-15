@@ -19,7 +19,7 @@ description:
 ---
 
 <audio controls>
- <source src="https://files.zadapps.info/binbaz.org.sa/fatawa/nour_3la_aldarb/nour_636/nour_63614.mp3" type="audio/mpeg"/><p>Your browser does not support the audio element.</p>
+ <source src="https://files.zadapps.info/binbaz.org.sa/fatawa/nour_3la_aldarb/nour_636/nour_63614.mp3" type="audio/mpeg"/><p>لا يدعم متصفحك عنصر الصوت</p>
 </audio>
 
 ### السؤال:
