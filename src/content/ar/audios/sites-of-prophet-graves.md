@@ -14,7 +14,7 @@ muftis: الشيخ بن باز
 tags:
   - صوتيات
 description:
-  The sites of the graves of all prophets are unknown, except the grave of Prophet Muhammad (peace be upon him) which is in Madinah and the grave of Prophet Ibrahim in Khalil.
+  فجميع قبور الأنبياء لا تعرف ما عدا قبر نبينا محمد ﷺ في المدينة، وقبر إبراهيم في الخليل.
 ---
 
 <audio controls>
