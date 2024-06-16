@@ -1,7 +1,7 @@
 ---
 author: alsalafiyyah@icloud.com
-pubDatetime: 2020-11-8
-modDatetime: 2020-11-8
+pubDatetime: 2020-11-08
+modDatetime: 2020-11-08
 hijriDate: 22 Rabiul-Awal 1442
 title: The Difference Between A Prophet And A Messenger
 slug: fatwa-467
