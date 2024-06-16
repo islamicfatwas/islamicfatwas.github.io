@@ -1,5 +1,5 @@
 ---
-author: Dr. Rashid Al-Almani
+author: alsalafiyyah@icloud.com
 pubDatetime: 2020-11-28
 modDatetime: 2020-11-28
 hijriDate: 13 ربيع الثاني 1442
@@ -20,7 +20,7 @@ description:
 ---
 
 <audio controls>
- <source src="https://files.zadapps.info/binbaz.org.sa/fatawa/nour_3la_aldarb/nour_599/59907.mp3" type="audio/mpeg"/><p>Your browser does not support the audio element.</p>
+ <source src="https://files.zadapps.info/binbaz.org.sa/fatawa/nour_3la_aldarb/nour_599/59907.mp3" type="audio/mpeg"/><p>لا يدعم متصفحك عنصر الصوت</p>
 </audio>
 
 ### السؤال:
