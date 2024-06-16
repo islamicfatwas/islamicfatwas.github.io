@@ -1,7 +1,7 @@
 ---
 author: alsalafiyyah@icloud.com
 pubDatetime: 2020-11-14
-modDatetime: 2020-11-q4
+modDatetime: 2020-11-14
 hijriDate: 28 Rabiul-Awal 1442
 title: Sites of The Prophets' Graves
 slug: fatwa-648
