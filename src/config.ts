@@ -5,7 +5,7 @@ export const SITE: Site = {
   author: "alsalafiyyah@icloud.com",
   desc: "Knowledge of Shariah",
   title: "Manhaj of The Salaf",
-  ogImage: "astropaper-og.jpg",
+  ogImage: "og.jpg",
   lightAndDarkMode: true,
   postPerPage: 8,
   scheduledPostMargin: 15 * 60 * 1000, // 15 minutes
