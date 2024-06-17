@@ -11,6 +11,25 @@ export const SITE: Site = {
   scheduledPostMargin: 15 * 60 * 1000, // 15 minutes
 };
 
+export const ARABIC: Arabic = {
+  url: "https://salafmanhaj.github.io/ar", // replace this with your deployed domain
+  muftis: "المفتي",
+  copyright: "جميع الحقوق محفوظة",
+  title: "منهج السلف",
+  home: "الرئيسية",
+  audios: "صوتيات",
+  backtotop: "العودة إلى أعلى",
+  next: "التالي",
+  prev: "السابق",
+  articles: "مقالات",
+  comments: "التعليقات",
+  more: "المزيد",
+  rssfeed: "تغذية RSS",
+  categories: "التصنيفات",
+  fatwas: "الفتاوى",
+  sourcr: "مصدر",
+};
+
 export const LOCALE = {
   lang: "en", // html lang code. Set this empty and default will be "en"
   langTag: ["en-EN"], // BCP 47 Language Tags. Set this empty [] to use the environment default
