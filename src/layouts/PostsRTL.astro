@@ -6,7 +6,7 @@ import Header from "@components/HeaderRTL.astro";
 import Footer from "@components/FooterRTL.astro";
 import Pagination from "@components/PaginationRTL.astro";
 import Card from "@components/Card";
-import { SITE } from "@config";
+import { SITE, ARABIC } from "@config";
 
 export interface Props {
   currentPage: number;
@@ -17,7 +17,7 @@ export interface Props {
 const { currentPage, totalPages, paginatedPosts } = Astro.props;
 ---
 
-<Layout title={`الفتاوى | ${SITE.title}`}>
+<Layout title={`${ARABIC.fatwas} | ${SITE.title}`}>
   <Header activeNav="fatwas" />
   <Main pageTitle="الفتاوى" pageDesc="">
     <ul>
