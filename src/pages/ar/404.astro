@@ -1,5 +1,5 @@
 ---
-import { SITE } from "@config";
+import { SITE, ARABIC } from "@config";
 import Layout from "@layouts/Layout.astro";
 import Header from "@components/HeaderRTL.astro";
 import Footer from "@components/FooterRTL.astro";
@@ -14,13 +14,13 @@ import LinkButton from "@components/LinkButton.astro";
       <h1 aria-label="404 Not Found">404</h1>
       <span aria-hidden="true">¯\_(ツ)_/¯</span>
       <p>
-       الصفحة التي طلبتها غير موجودة
+       {ARABIC.notfound}
       </p>
       <LinkButton
         href="/"
         className="my-6 text-lg underline decoration-dashed underline-offset-8"
       >
-        الانتقال للصفحة الرئيسية
+        {ARABIC.gotohome}
       </LinkButton>
     </div>
   </main>
