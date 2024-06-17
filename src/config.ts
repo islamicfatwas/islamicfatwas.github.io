@@ -13,7 +13,7 @@ export const SITE: Site = {
 
 export const ENGLISH: English = {
   url: "https://salafmanhaj.github.io/", // replace this with your deployed domain
-  muftis: "Mufti(s)",
+  muftis: "Muftis",
   copyright: "All rights reserved",
   title: "Manhaj of The Salaf",
   home: "Home",
@@ -27,7 +27,7 @@ export const ENGLISH: English = {
   rssfeed: "RSS Feed",
   categories: "Categories",
   fatwas: "Fatwas",
-  source: "Source(s)",
+  source: "Source",
   english: "English",
   search: "Search",
   featured: "Featured",
