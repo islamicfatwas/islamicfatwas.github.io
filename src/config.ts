@@ -11,6 +11,35 @@ export const SITE: Site = {
   scheduledPostMargin: 15 * 60 * 1000, // 15 minutes
 };
 
+export const ENGLISH: English = {
+  url: "https://salafmanhaj.github.io/", // replace this with your deployed domain
+  muftis: "Mufti(s)",
+  copyright: "All rights reserved",
+  title: "Manhaj of The Salaf",
+  home: "Home",
+  audios: "Audios",
+  backtotop: "Back to top",
+  next: "Next",
+  prev: "Prev",
+  articles: "Articles",
+  comments: "Cooments",
+  more: "More",
+  rssfeed: "RSS Feed",
+  categories: "Categories",
+  fatwas: "Fatwas",
+  source: "Source(s)",
+  english: "English",
+  search: "Search",
+  featured: "Featured",
+  notfound: "Page not found",
+  poweredby: "Powered by",
+  buildwith: "Build with",
+  github: "Github",
+  shareto: "Share on",
+  goback: "Go back",
+  gotohome: "Go to home",
+};
+
 export const ARABIC: Arabic = {
   url: "https://salafmanhaj.github.io/ar", // replace this with your deployed domain
   muftis: "المفتي",
@@ -39,11 +68,6 @@ export const ARABIC: Arabic = {
   goback: "Go back",
   gotohome: "الانتقال للصفحة الرئيسية",
 };
-
-export const LOCALE = {
-  lang: "en", // html lang code. Set this empty and default will be "en"
-  langTag: ["en-EN"], // BCP 47 Language Tags. Set this empty [] to use the environment default
-} as const;
 
 export const LOGO_IMAGE = {
   enable: false,
