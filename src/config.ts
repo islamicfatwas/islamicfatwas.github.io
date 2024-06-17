@@ -34,6 +34,8 @@ export const ARABIC: Arabic = {
   404: "الصفحة التي طلبتها غير موجودة",
   poweredby: "مدعوم من",
   github: "جيت هب",
+  shareto: "شارك على",
+  goback: "Go back",
 };
 
 export const LOCALE = {
