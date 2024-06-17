@@ -27,7 +27,11 @@ export const ARABIC: Arabic = {
   rssfeed: "تغذية RSS",
   categories: "التصنيفات",
   fatwas: "الفتاوى",
-  sourcr: "مصدر",
+  source: "المصدر",
+  english: "English",
+  search: "البحث",
+  featured: "Featured",
+  404: "الصفحة التي طلبتها غير موجودة",
 };
 
 export const LOCALE = {
