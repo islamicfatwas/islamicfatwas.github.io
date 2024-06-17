@@ -2,7 +2,7 @@ import type { Site, SocialObjects } from "./types";
 
 export const SITE: Site = {
   website: "https://salafmanhaj.github.io/", // replace this with your deployed domain
-  author: "Dr.Rashid Al-Almani",
+  author: "alsalafiyyah@icloud.com",
   desc: "Knowledge of Shariah",
   title: "Manhaj of The Salaf",
   ogImage: "astropaper-og.jpg",
@@ -17,7 +17,7 @@ export const LOCALE = {
 } as const;
 
 export const ENGLISH: English = {
-  url: "https://salafmanhaj.github.io/", // replace this with your deployed domain
+  url: "https://salafmanhaj.github.io/",
   muftis: "Muftis",
   copyright: "All rights reserved",
   title: "Manhaj of The Salaf",
@@ -28,6 +28,7 @@ export const ENGLISH: English = {
   prev: "Prev",
   articles: "Articles",
   comments: "Cooments",
+  comment: "Comment",
   more: "More",
   rssfeed: "RSS Feed",
   categories: "Categories",
@@ -43,10 +44,18 @@ export const ENGLISH: English = {
   shareto: "Share on",
   goback: "Go back",
   gotohome: "Go to home",
+  ar: "عربي",
+  en: "En",
+  xtwitter: "X",
+  telegram: "Telegram",
+  whatsapp: "WhatsApp",
+  facebook: "Facebook",
+  instagram: "Instagram",
+  tiktok: "TikTok",
 };
 
 export const ARABIC: Arabic = {
-  url: "https://salafmanhaj.github.io/ar", // replace this with your deployed domain
+  url: "https://salafmanhaj.github.io/ar",
   muftis: "المفتي",
   copyright: "جميع الحقوق محفوظة",
   title: "منهج السلف",
@@ -57,6 +66,7 @@ export const ARABIC: Arabic = {
   prev: "السابق",
   articles: "مقالات",
   comments: "التعليقات",
+  comment: "",
   more: "المزيد",
   rssfeed: "تغذية RSS",
   categories: "التصنيفات",
@@ -72,6 +82,14 @@ export const ARABIC: Arabic = {
   shareto: "شارك على",
   goback: "Go back",
   gotohome: "الانتقال للصفحة الرئيسية",
+  ar: "عربي",
+  en: "En",
+  xtwitter: "X تعتبر",
+  telegram: "تيليجرام",
+  whatsapp: "واتساب",
+  facebook: "فيسبوك",
+  instagram: "إنستقرام",
+  tiktok: "تيك توك",
 };
 
 export const LOGO_IMAGE = {
