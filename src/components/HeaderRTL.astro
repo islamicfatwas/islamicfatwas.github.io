@@ -1,5 +1,5 @@
 ---
-import { LOGO_IMAGE, SITE } from "@config";
+import { LOGO_IMAGE, SITE, ARABIC } from "@config";
 import Hr from "./Hr.astro";
 import LinkButton from "./LinkButton.astro";
 
@@ -15,7 +15,7 @@ const { activeNav } = Astro.props;
   <div class="nav-container">
     <div class="top-nav-wrap">
       <a href="/ar" class="logo whitespace-nowrap">
-        منهج السلف
+        {ARABIC.title}
       </a>
       <nav id="nav-menu">
         <button
@@ -46,7 +46,7 @@ const { activeNav } = Astro.props;
         <ul id="menu-items" class="display-none sm:flex" dir="rtl">
           <li>
             <a href="/ar/posts/" class={activeNav === "fatwas" ? "active" : ""}>
-              الفتاوى
+              {ARABIC.fatwa}
             </a>
           </li>
           <li>
@@ -56,7 +56,7 @@ const { activeNav } = Astro.props;
           </li>
           <li>
             <a href="/ar/rss">
-              تغذية RSS
+              {ARABIC.rssfeed}
             </a>
           </li>
           <li>
