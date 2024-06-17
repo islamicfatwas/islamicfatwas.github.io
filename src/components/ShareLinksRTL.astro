@@ -1,6 +1,7 @@
 ---
 import LinkButton from "./LinkButton.astro";
 import socialIcons from "@assets/socialIcons";
+import { ARABIC } from "@config";
 
 const URL = Astro.url;
 
@@ -39,7 +40,7 @@ const shareLinks = [
 ---
 
 <div class={`social-icons`}>
-  <span class="italic">شارك على :</span>
+  <span class="italic">{ARABIC.shareto}</span>
   <div class="text-center">
     {
       shareLinks.map(social => (
