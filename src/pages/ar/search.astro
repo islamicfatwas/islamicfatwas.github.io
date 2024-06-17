@@ -1,6 +1,6 @@
 ---
 import { getCollection } from "astro:content";
-import { SITE } from "@config";
+import { SITE, ARABIC } from "@config";
 import Layout from "@layouts/Layout.astro";
 import Main from "@layouts/MainRTL.astro";
 import Header from "@components/HeaderRTL.astro";
@@ -21,9 +21,9 @@ const searchList = sortedPosts.map(({ data, slug }) => ({
 }));
 ---
 
-<Layout dir="rtl" title={`البحث | ${SITE.title}`}>
+<Layout dir="rtl" title={`${ARABIC.search} | ${SITE.title}`}>
   <Header activeNav="search" />
-  <Main pageTitle="البحث" pageDesc="">
+  <Main pageTitle="{ARABIC.search}" pageDesc="">
     <SearchBar client:load searchList={searchList} />
   </Main>
   <Footer />
