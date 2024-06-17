@@ -32,6 +32,8 @@ export const ARABIC: Arabic = {
   search: "البحث",
   featured: "Featured",
   404: "الصفحة التي طلبتها غير موجودة",
+  poweredby: "مدعوم من",
+  github: "جيت هب",
 };
 
 export const LOCALE = {
