@@ -45,13 +45,13 @@ const { activeNav } = Astro.props;
         </button>
         <ul id="menu-items" class="display-none sm:flex" dir="rtl">
           <li>
-            <a href="/ar/posts/" class={activeNav === "fatwas" ? "active" : ""}>
+            <a href="/ar/fatwas/" class={activeNav === "fatwas" ? "active" : ""}>
               {ARABIC.fatwas}
             </a>
           </li>
           <li>
             <a href="/ar/tags/صوتيات/">
-              صوتيات
+              {ARABIC.audios}
             </a>
           </li>
           <li>
@@ -61,7 +61,7 @@ const { activeNav } = Astro.props;
           </li>
           <li>
             <a href="/">
-              English
+              {ARABIC.english}
             </a>
           </li>
           <li>
