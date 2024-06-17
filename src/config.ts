@@ -31,11 +31,13 @@ export const ARABIC: Arabic = {
   english: "English",
   search: "البحث",
   featured: "Featured",
-  404: "الصفحة التي طلبتها غير موجودة",
+  notfound: "الصفحة التي طلبتها غير موجودة",
   poweredby: "مدعوم من",
+  buildwith: "Build with",
   github: "جيت هب",
   shareto: "شارك على",
   goback: "Go back",
+  gotohome: "الانتقال للصفحة الرئيسية",
 };
 
 export const LOCALE = {
