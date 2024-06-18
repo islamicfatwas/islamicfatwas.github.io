@@ -9,6 +9,7 @@ import Card from "@components/Card";
 import Socials from "@components/Socials.astro";
 import getSortedPosts from "@utils/getSortedPosts";
 import { SOCIALS, ARABIC } from "@config";
+import { ar_labels } from '../i18n/ui';
 
 const posts = await getCollection("ar");
 
@@ -72,6 +73,18 @@ const socialCount = SOCIALS.filter(social => social.active).length;
        {ARABIC.more}
       </LinkButton>
     </div>
+
+<section id="recent-posts">
+<h2>Labels</h2>
+<ul>
+  {Object.entries(ar_labels).map(([label]) => (
+    <li>
+      <a href="/ar/tags/{label}">{label}</a>
+    </li>
+  ))}
+</ul>
+</section>
+
   </main>
 
   <Footer />
