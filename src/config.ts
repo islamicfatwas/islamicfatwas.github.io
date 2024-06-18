@@ -99,6 +99,32 @@ export const LOGO_IMAGE = {
   height: 46,
 };
 
+export const SOCIALS_AR: SocialObjects = [
+  {
+    name: "Github",
+    href: "https://github.com/salafmanhaj",
+    linkTitle: ` ${SITE.title} on Github`,
+    active: true,
+  },
+  {
+    name: "Instagram",
+    href: "https://instagram.com/Alsalafiyyah",
+    linkTitle: `${SITE.title} on Instagram`,
+    active: true,
+  },
+  {
+    name: "RSS",
+    href: "/ar/rss",
+    linkTitle: `${SITE.title} on RSS`,
+    active: true,
+  },
+  {
+    name: "Mail",
+    href: "mailto:yourmail@gmail.com",
+    linkTitle: `Send an email to ${SITE.title}`,
+    active: false,
+  },
+];
 export const SOCIALS: SocialObjects = [
   {
     name: "Github",
