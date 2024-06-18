@@ -122,7 +122,7 @@ export const SOCIALS: SocialObjects = [
     name: "RSS",
     href: "/rss",
     linkTitle: `${SITE.title} on RSS`,
-    active: false,
+    active: true,
   },
   {
     name: "Mail",
