@@ -9,6 +9,10 @@ import Card from "@components/Card";
 import Socials from "@components/Socials.astro";
 import getSortedPosts from "@utils/getSortedPosts";
 import { SOCIALS } from "@config";
+import { getLangFromUrl, useTranslations } from '../../i18n/utils';
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
 
 const posts = await getCollection("blog");
 
@@ -72,6 +76,38 @@ const socialCount = SOCIALS.filter(social => social.active).length;
         </svg>
       </LinkButton>
     </div>
+
+<section>
+<h2>Labels</h2>
+<ul style="display: inline-block;">
+    <li>
+      <a href="/tags/hajj/">
+       {t('tags.hajj')}
+      </a>
+    </li>
+    <li>
+      <a href="/tags/salah/">
+       {t('tags.salat')}
+      </a>
+    </li>
+    <li>
+      <a href="/tags/fasting/">
+       {t('tags.fasting')}
+      </a>
+    </li>
+    <li>
+      <a href="/tags/zakah/">
+       {t('tags.zakat')}
+      </a>
+    </li>
+    <li>
+      <a href="/tags/funerals/">
+       {t('tags.funerals')}
+      </a>
+    </li>
+</ul>
+</section>
+
   </main>
 
   <Footer />
