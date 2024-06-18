@@ -30,3 +30,15 @@ const blog = defineCollection({
 });
 
 export const collections = { blog };
+
+const articleCollection = defineCollection({
+  schema: z.object({
+    title: z.string(),
+    author: z.string().default(SITE.author),
+    pubDatetime: z.date(),
+  })
+});
+
+export const collections = {
+  'articles': blogCollection
+};
