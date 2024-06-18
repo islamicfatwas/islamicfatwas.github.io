@@ -4,7 +4,7 @@ pubDatetime: 2021-05-03
 modDatetime: 2021-05-03
 hijriDate: 21 Ramadan 1442
 title: What Is The Meaning Of Bid'ah?
-slug: meaning-of-bidah
+slug: en-meaning-of-bidah
 featured: false
 draft: false
 source: Fatawa Al-Lajnah Ad-Da'imah, Fatwa no.17522, Question 1
