@@ -9,7 +9,7 @@ import Card from "@components/Card";
 import Socials from "@components/Socials.astro";
 import getSortedPosts from "@utils/getSortedPosts";
 import { SOCIALS, ARABIC } from "@config";
-import { getLangFromUrl, useTranslations } from '../i18n/utils';
+import { getLangFromUrl, useTranslations } from '../../i18n/utils';
 
 const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
@@ -86,7 +86,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
       </a>
     </li>
     <li>
-      <a href="/ar/tags/الصلاة/">
+      <a href="/ar/tags/{t('tags.salat')}/">
        {t('tags.salat')}
       </a>
     </li>
