@@ -7,7 +7,7 @@ export const defaultLang = 'en';
 
 export const ui = {
   en: {
-    'fatwas': 'About',
+    'fatwas': 'Fatwas',
     'audios': 'Audios',
     'search': 'Search',
     'langName': 'عربي',
