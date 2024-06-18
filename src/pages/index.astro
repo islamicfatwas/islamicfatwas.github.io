@@ -30,7 +30,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
       featuredPosts.length > 0 && (
         <>
           <section id="featured">
-            <h2>{t('featured')}<</h2>
+            <h2>{t('featured')}</h2>
             <ul>
               {featuredPosts.map(({ data, slug }) => (
                 <Card
@@ -49,7 +49,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
     {
       recentPosts.length > 0 && (
         <section id="recent-posts">
-          <h2>{t('fatwas')}<</h2>
+          <h2>{t('nav.fatwas')}</h2>
           <ul>
             {recentPosts.map(
               ({ data, slug }, index) =>
