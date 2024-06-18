@@ -7,15 +7,17 @@ export const defaultLang = 'en';
 
 export const ui = {
   en: {
-    'fatwas': 'Fatwas',
-    'audios': 'Audios',
-    'search': 'Search',
-    'langName': 'عربي',
+    'nav.title': 'Manhaj of the Salaf',
+    'nav.fatwas': 'Fatwas',
+    'nav.audios': 'Audios',
+    'nav.search': 'Search',
+    'nav.lang': 'عربي',
   },
   ar: {
-    'fatwas': 'الفتاوى',
-    'audios': 'صوتيات',
-    'search': 'البحث',
-    'langName': 'English',
+    'nav.title': 'منهج السلف',
+    'nav.fatwas': 'الفتاوى',
+    'nav.audios': 'صوتيات',
+    'nav.search': 'البحث',
+    'nav.lang': 'English',
   },
 } as const;
