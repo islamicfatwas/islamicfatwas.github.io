@@ -13,9 +13,9 @@ const { activeNav } = Astro.props;
 <header>
   <a id="skip-to-content" href="#main-content">Skip to content</a>
   <div class="nav-container">
-    <div class="top-nav-wrap">
-      <a href="/ar" class="logo whitespace-nowrap">
-        {ARABIC.title}
+    <div class="top-nav-wrap">         
+      <a href="{`/${lang}/`}" class="logo whitespace-nowrap">
+        {t('nav.title')}
       </a>
       <nav id="nav-menu">
         <button
@@ -42,30 +42,25 @@ const { activeNav } = Astro.props;
             <line x1="6" y1="6" x2="18" y2="18" class="close"></line>
           </svg>
         </button>
-        <ul id="menu-items" class="display-none sm:flex" dir="rtl">
+        <ul id="menu-items" class="display-none sm:flex">
           <li>
-            <a href="/ar/fatwas/" class={activeNav === "fatwas" ? "active" : ""}>
-              {ARABIC.fatwas}
+            <a href="{`/${lang}/fatwas/`}" class={activeNav === "fatwas" ? "active" : ""}>
+              {t('nav.fatwas')}
             </a>
           </li>
           <li>
-            <a href="/ar/tags/صوتيات/">
-              {ARABIC.audios}
-            </a>
-          </li>
-          <li>
-            <a href="/ar/rss">
-              {ARABIC.rssfeed}
+            <a href="{`/${lang}/tags/audios/`}">
+              {t('nav.audios')}
             </a>
           </li>
           <li>
             <a href="/">
-              {ARABIC.english}
+              {t('nav.lang')}
             </a>
           </li>
           <li>
             <LinkButton
-              href="/ar/search/"
+              href="{`/${lang}/search/`}"
               className={`focus-outline p-3 sm:p-1 ${
                 activeNav === "search" ? "active" : ""
               } flex`}
