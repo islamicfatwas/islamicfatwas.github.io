@@ -12,6 +12,12 @@ export const ui = {
     'nav.audios': 'Audios',
     'nav.search': 'Search',
     'nav.lang': 'عربي',
+    'tags.hajj': 'Hajj & Umrah',
+    'tags.fasting': 'Fasting',
+    'tags.zakat': 'Zakah',
+    'tags.salat': 'Salah',
+    'tags.funerals': 'Funerals',
+    'tags.taharah': 'Taharah',
   },
   ar: {
     'nav.title': 'منهج السلف',
@@ -19,6 +25,12 @@ export const ui = {
     'nav.audios': 'صوتيات',
     'nav.search': 'البحث',
     'nav.lang': 'English',
+    'tags.hajj': 'الحج والعمرة',
+    'tags.fasting': 'الصيام',
+    'tags.zakat': 'الزكاة',
+    'tags.salat': 'الصلاة',
+    'tags.funerals': 'الجنائز',
+    'tags.taharah': 'الطهارة',
   },
 } as const;
 
