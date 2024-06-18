@@ -79,7 +79,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
 <ul>
   {Object.entries(ar_labels).map(([lang, label]) => (
     <li>
-      <a href="/ar/tags/{label}">{label}</a>
+      <a href="{`/ar/${label}/`}">{label}</a>
     </li>
   ))}
 </ul>
