@@ -77,7 +77,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
 <section id="recent-posts">
 <h2>Labels</h2>
 <ul>
-  {Object.entries(ar_labels).map(([label]) => (
+  {Object.entries(ar_labels).map(([lang, label]) => (
     <li>
       <a href="/ar/tags/{label}">{label}</a>
     </li>
