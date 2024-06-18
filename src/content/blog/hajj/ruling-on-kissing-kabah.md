@@ -3,7 +3,7 @@ author: alsalafiyyah@icloud.com
 pubDatetime: 2024-06-18
 modDatetime: 2024-06-18
 hijriDate: 12 Dhul-Hijjah 1445
-title: Kissing the Ka’bah is not prescribed in Shari’ah
+title: Kissing the Ka’bah is not prescribed in Shariah
 slug: fatwa-398
 featured: false
 draft: false
