@@ -103,28 +103,29 @@ export const SOCIALS_AR: SocialObjects = [
   {
     name: "Github",
     href: "https://github.com/salafmanhaj",
-    linkTitle: ` ${SITE.title} on Github`,
+    linkTitle: `${ARABIC.title} on ${ARABIC.github}`,
     active: true,
   },
   {
     name: "Instagram",
     href: "https://instagram.com/Alsalafiyyah",
-    linkTitle: `${SITE.title} on Instagram`,
+    linkTitle: `${ARABIC.title} on ${ARABIC.instagram}`,
     active: true,
   },
   {
     name: "RSS",
     href: "/ar/rss",
-    linkTitle: `${SITE.title} on RSS`,
+    linkTitle: `${ARABIC.title} on ${ARABIC.rssfeed}`,
     active: true,
   },
   {
     name: "Mail",
-    href: "mailto:yourmail@gmail.com",
-    linkTitle: `Send an email to ${SITE.title}`,
-    active: false,
+    href: "mailto:alsalafiyyah@icloud.com",
+    linkTitle: `Send an email to ${ARABIC.title}`,
+    active: true,
   },
 ];
+
 export const SOCIALS: SocialObjects = [
   {
     name: "Github",
