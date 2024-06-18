@@ -40,5 +40,5 @@ const articleCollection = defineCollection({
 });
 
 export const collections = {
-  'articles': blogCollection
+  'articles': articleCollection
 };
