@@ -51,6 +51,6 @@ const articleCollection = defineCollection({
   }),
 });
 
-export const collections = {
+export const collection = {
   'articles': articleCollection
 };
