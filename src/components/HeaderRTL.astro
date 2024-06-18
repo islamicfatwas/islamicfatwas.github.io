@@ -18,7 +18,7 @@ const { activeNav } = Astro.props;
   <a id="skip-to-content" href="#main-content">Skip to content</a>
   <div class="nav-container">
     <div class="top-nav-wrap">         
-      <a href="{`/${lang}/`}" class="logo whitespace-nowrap">
+      <a href="/ar" class="logo whitespace-nowrap">
         {t('nav.title')}
       </a>
       <nav id="nav-menu">
@@ -48,12 +48,12 @@ const { activeNav } = Astro.props;
         </button>
         <ul id="menu-items" class="display-none sm:flex">
           <li>
-            <a href="{`/${lang}/fatwas/`}" class={activeNav === "fatwas" ? "active" : ""}>
+            <a href="/ar/fatwas/" class={activeNav === "fatwas" ? "active" : ""}>
               {t('nav.fatwas')}
             </a>
           </li>
           <li>
-            <a href="{`/${lang}/tags/audios/`}">
+            <a href="/tags/audios/">
               {t('nav.audios')}
             </a>
           </li>
@@ -64,7 +64,7 @@ const { activeNav } = Astro.props;
           </li>
           <li>
             <LinkButton
-              href="{`/${lang}/search/`}"
+              href="/ar/search/`}"
               className={`focus-outline p-3 sm:p-1 ${
                 activeNav === "search" ? "active" : ""
               } flex`}
