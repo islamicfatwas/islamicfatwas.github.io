@@ -8,6 +8,7 @@ export const defaultLang = 'en';
 export const ui = {
   en: {
     'nav.title': 'Manhaj of the Salaf',
+    'home': 'Home',
     'nav.fatwas': 'Fatwas',
     'nav.audios': 'Audios',
     'nav.search': 'Search',
@@ -20,6 +21,9 @@ export const ui = {
     'source': 'Source(s)',
     'muftis': 'Mufti(s)',
     'featured': 'Featured',
+    'gettoknow': 'Get to know',
+    'shareon': 'Share on',
+    'articles': 'Articles',
     'tags.hajj': 'Hajj & Umrah',
     'tags.fasting': 'Fasting',
     'tags.zakat': 'Zakah',
@@ -29,6 +33,7 @@ export const ui = {
   },
   ar: {
     'nav.title': 'منهج السلف',
+    'home': 'الرئيسية',
     'nav.fatwas': 'الفتاوى',
     'nav.audios': 'صوتيات',
     'nav.search': 'البحث',
@@ -41,6 +46,9 @@ export const ui = {
     'source': 'المصدر',
     'muftis': 'المفتي',
     'featured': 'Featured',
+    'gettoknow': 'تعرف',
+    'shareon': 'شارك على',
+    'articles': 'مقالات',
     'tags.hajj': 'الحج والعمرة',
     'tags.fasting': 'الصيام',
     'tags.zakat': 'الزكاة',
