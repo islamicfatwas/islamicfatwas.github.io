@@ -21,3 +21,21 @@ export const ui = {
     'nav.lang': 'English',
   },
 } as const;
+
+export const en_labels = {
+  hajj: 'Hajj & Umrah',
+  fasting: 'Fasting',
+  zakat: 'Zakah',
+  salat: 'Salah',
+  funerals: 'Funerals',
+  taharah: 'Taharah',
+};
+
+export const ar_labels = {
+  hajj: 'الحج والعمرة',
+  fasting: 'الصيام',
+  zakat: 'الزكاة',
+  salat: 'الصلاة',
+  funerals: 'الجنائز',
+  taharah: 'الطهارة',
+};
