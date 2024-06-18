@@ -9,7 +9,10 @@ import Card from "@components/Card";
 import Socials from "@components/Socials.astro";
 import getSortedPosts from "@utils/getSortedPosts";
 import { SOCIALS, ARABIC } from "@config";
-import { ar_labels } from '../../i18n/ui';
+import { getLangFromUrl, useTranslations } from '../i18n/utils';
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
 
 const posts = await getCollection("ar");
 
@@ -76,12 +79,27 @@ const socialCount = SOCIALS.filter(social => social.active).length;
 
 <section id="recent-posts">
 <h2>Labels</h2>
-<ul>
-  {Object.entries(ar_labels).map(([lang, label]) => (
+<ul style="display: inline;">
     <li>
-      <a href="{`/${lang}/{label}/`}">{label}</a>
+      <a href="/ar/tags/{t('tags.hajj')}">
+       {t('tags.hajj')}
+      </a>
     </li>
-  ))}
+    <li>
+      <a href="/ar/tags/{t('tags.salat')}">
+       {t('tags.salat')}
+      </a>
+    </li>
+    <li>
+      <a href="/ar/fasting/{t('tags.fasting')}">
+       {t('tags.fasting')}
+      </a>
+    </li>
+    <li>
+      <a href="/ar/tags/{t('tags.zakat')}">
+       {t('tags.zakat')}
+      </a>
+    </li>
 </ul>
 </section>
 
