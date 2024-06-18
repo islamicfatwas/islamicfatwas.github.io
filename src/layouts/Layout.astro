@@ -3,6 +3,7 @@ import { LOCALE, SITE } from "@config";
 import "@styles/base.css";
 import { ViewTransitions } from "astro:transitions";
 import { getLangFromUrl } from '../i18n/utils';
+import LanguagePicker from '../components/LanguagePicker.astro';
 
 const lang = getLangFromUrl(Astro.url);
 const googleSiteVerification = import.meta.env.PUBLIC_GOOGLE_SITE_VERIFICATION;
@@ -113,5 +114,8 @@ const socialImageURL = new URL(
   </head>
   <body>
     <slot />
+        <footer>
+          <LanguagePicker />
+        </footer>
   </body>
 </html>
