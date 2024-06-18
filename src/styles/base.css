@@ -94,7 +94,12 @@ html[data-theme="light"] {
   html {
     overflow-y: scroll;
   }
-
+  .en {
+    direction: ltr;
+  }
+  .ar {
+    direction: rtl;
+  }
   /* width */
   ::-webkit-scrollbar {
     @apply w-3;
