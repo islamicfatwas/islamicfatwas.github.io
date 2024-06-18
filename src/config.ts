@@ -99,6 +99,37 @@ export const LOGO_IMAGE = {
   height: 46,
 };
 
+export const taggedAR: TagObjects = [
+  {
+    name: "الحج والعمرة",
+    href: "https://salafmanhaj.github.io/ar/tags/الحج/",
+  },
+  {
+    name: "الصلاة",
+    href: "https://salafmanhaj.github.io/ar/tags/الصلاة/",
+  },
+  {
+    name: "الصيام",
+    href: "https://salafmanhaj.github.io/ar/tags/الصيام/",
+  },
+  {
+    name: "الزكاة",
+    href: "https://salafmanhaj.github.io/ar/tags/الزكاة/",
+  },
+  {
+    name: "الطهارة",
+    href: "https://salafmanhaj.github.io/ar/tags/الطهارة/",
+  },
+  {
+    name: "المعاملات",
+    href: "https://salafmanhaj.github.io/ar/tags/المعاملات/",
+  },
+  {
+    name: "الجنائز",
+    href: "https://salafmanhaj.github.io/ar/tags/الجنائز/",
+  },
+];
+
 export const SOCIALS_AR: SocialObjects = [
   {
     name: "Github",
