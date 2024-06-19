@@ -19,7 +19,6 @@ export interface Props {
   post: CollectionEntry<"ar">;
 }
 
-const { AudioPlayer = false } = Astro.props;
 const { post } = Astro.props;
 
 const {
@@ -56,6 +55,7 @@ const layoutProps = {
   canonicalURL,
   ogImage: ogUrl,
   scrollSmooth: true,
+  AudioPlayer = false
 };
 ---
 
