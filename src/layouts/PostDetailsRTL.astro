@@ -13,9 +13,13 @@ const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
 
 export interface Props {
+  AudioPlayer: boolean;
+}
+export interface Props {
   post: CollectionEntry<"ar">;
 }
 
+const { AudioPlayer } = Astro.props;
 const { post } = Astro.props;
 
 const {
@@ -78,6 +82,13 @@ const layoutProps = {
       size="lg"
       className="my-2"
     />
+
+    <div class={`audio ${AudioPlayer ? "true" : "false"}`}>
+     <audio controls><source src="{audio}" type="audio/mpeg"/>
+      <p>لا يدعم متصفحك عنصر الصوت</p>
+     </audio>
+    </div>
+
     <article id="article" role="article" class="prose mx-auto mt-8 max-w-3xl">
       <Content />
     </article>
