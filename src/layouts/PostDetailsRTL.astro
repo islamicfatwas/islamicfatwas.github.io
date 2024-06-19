@@ -1,12 +1,16 @@
 ---
 import Layout from "@layouts/Layout.astro";
 import Header from "@components/HeaderRTL.astro";
-import Footer from "@components/FooterRTL.astro";
+import Footer from "@components/Footer.astro";
 import Datetime from "@components/Datetime";
 import type { CollectionEntry } from "astro:content";
 import { slugifyStr } from "@utils/slugify";
 import ShareLinks from "@components/ShareLinksRTL.astro";
-import { SITE, ARABIC } from "@config";
+import { SITE } from "@config";
+import { getLangFromUrl, useTranslations } from '../i18n/utils';
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
 
 export interface Props {
   post: CollectionEntry<"ar">;
@@ -34,7 +38,7 @@ const { Content } = await post.render();
 
 const ogImageUrl = typeof ogImage === "string" ? ogImage : ogImage?.src;
 const ogUrl = new URL(
-  ogImageUrl ?? `/ar/posts/${slugifyStr(title)}.png`,
+  ogImageUrl ?? `/ar/fatwas/${slugifyStr(title)}.png`,
   Astro.url.origin
 ).href;
 
@@ -58,16 +62,11 @@ const layoutProps = {
     <div class="progress-bar h-1 w-0 bg-skin-accent" id="myBar"></div>
   </div> -->
 
-  <div dir="rtl" class="mx-auto flex w-full max-w-3xl justify-start px-2">
+  <div class="mx-auto flex w-full max-w-3xl justify-start px-2 {lang}">
     <button
       class="focus-outline mb-2 mt-8 flex hover:opacity-75"
-      onclick="(() => (history.length === 1) ? window.location = '/' : history.back())()"
-    >
-      <svg xmlns="http://www.w3.org/2000/svg"
-        ><path
-          d="M13.293 6.293 7.586 12l5.707 5.707 1.414-1.414L10.414 12l4.293-4.293z"
-        ></path>
-      </svg><span>Go back</span>
+      onclick="(() => (history.length === 1) ? window.location = '/' : history.back())()">
+      <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-arrow-right"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 12l14 0" /><path d="M13 18l6 -6" /><path d="M13 6l6 6" /></svg>
     </button>
   </div>
   <main id="main-content" dir="rtl">
@@ -85,8 +84,8 @@ const layoutProps = {
     <br/>
     <hr />
     <div class="my-8">
-     <p>{ARABIC.source} : <b>{source}</b></p>
-     <p>{ARABIC.muftis} : <b>{muftis}</b></p>    
+     <p>{t('source')} : <b>{source}</b></p>
+     <p>{t('muftis')} : <b>{muftis}</b></p>    
     </div>
     <div
       class="flex flex-col-reverse items-center justify-between gap-6 sm:flex-row-reverse sm:items-end sm:gap-4"
@@ -95,7 +94,7 @@ const layoutProps = {
         id="back-to-top"
         class="focus-outline whitespace-nowrap py-1 hover:opacity-75"
       >
-        <span> {ARABIC.backtotop} </span>
+        <span> {t('backtotop')} </span>
         <svg xmlns="http://www.w3.org/2000/svg" class="rotate-90">
           <path
             d="M13.293 6.293 7.586 12l5.707 5.707 1.414-1.414L10.414 12l4.293-4.293z"
