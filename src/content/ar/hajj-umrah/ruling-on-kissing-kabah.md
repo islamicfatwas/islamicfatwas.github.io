@@ -7,6 +7,7 @@ title: تقبيل الكعبة غير مشروع
 slug: fatwa-11228
 featured: false
 draft: false
+AudioPlayer: false
 source: فتاوى اللجنة الدائمة 11/228
 muftis: الشيخ ابن باز ، الشيخ عبد الرزاق عفيفي ، الشيخ عبد الله بن غديان 
 tags:
