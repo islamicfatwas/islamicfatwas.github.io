@@ -19,6 +19,7 @@ export interface Props {
   post: CollectionEntry<"ar">;
 }
 
+const { AudioPlayer = false } = Astro.props;
 const { post } = Astro.props;
 
 const {
@@ -82,8 +83,10 @@ const layoutProps = {
       className="my-2"
     />
 
-    <div class={`audio ${AudioPlayer ? "true" : "false"}`}>
-     <audio controls><source src="{audio}" type="audio/mpeg"/>
+    <div >
+     <audio 
+      {AudioPlayer === true ? '' : ''} 
+      controls><source src="{audio}" type="audio/mpeg"/>
       <p>لا يدعم متصفحك عنصر الصوت</p>
      </audio>
     </div>
