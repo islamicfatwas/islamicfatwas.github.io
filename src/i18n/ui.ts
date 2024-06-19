@@ -41,7 +41,7 @@ export const ui = {
     'categories': 'التصنيفات',
     'more': 'المزيد',
     'backtotop': 'العودة إلى أعلى',
-    'nav.next': 'التالي',
+    'next': 'التالي',
     'prev': 'السابق',
     'source': 'المصدر',
     'muftis': 'المفتي',
