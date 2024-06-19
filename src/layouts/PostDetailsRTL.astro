@@ -84,10 +84,17 @@ const layoutProps = {
     />
 
     <div>
-     <audio {AudioPlayer === true} 
+<script>
+let AudioPlayer: boolean = true;
+if (AudioPlayer) {
+     <audio 
       controls><source src="{audio}" type="audio/mpeg"/>
       <p>لا يدعم متصفحك عنصر الصوت</p>
      </audio>
+} else { 
+}
+</script>
+
     </div>
 
     <article id="article" role="article" class="prose mx-auto mt-8 max-w-3xl">
