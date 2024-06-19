@@ -83,9 +83,8 @@ const layoutProps = {
       className="my-2"
     />
 
-    <div >
-     <audio 
-      {AudioPlayer === true ? '' : ''} 
+    <div>
+     <audio {AudioPlayer === true ? 'true' : undefined} 
       controls><source src="{audio}" type="audio/mpeg"/>
       <p>لا يدعم متصفحك عنصر الصوت</p>
      </audio>
