@@ -31,6 +31,10 @@ export default defineConfig({
       wrap: true,
     },
   },
+  i18n: {
+    defaultLocale: "en",
+    locales: ["ar", "en"],
+  },
   vite: {
     optimizeDeps: {
       exclude: ["@resvg/resvg-js"],
