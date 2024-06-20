@@ -4,7 +4,7 @@ pubDatetime: 2020-11-10
 modDatetime: 2020-11-10
 hijriDate: 24 Rabiul-Awal 1442
 title: Allah's Speech to Moses
-slug: fatwa-636
+slug: fatwa-636audios
 featured: false
 draft: false
 source: Fatawa Nur Ala Al-Darb, tape no. 636
