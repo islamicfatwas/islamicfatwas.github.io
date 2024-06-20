@@ -2,7 +2,7 @@
 import Layout from "@layouts/Layout.astro";
 import AudioCard from '@components/AudioCard.astro'
 import AudioPlayer from '@components/AudioPlayer.astro'
-import Pagination from '@components/PaginationAudio.astro'
+import PaginationAudio from '@components/PaginationAudio.astro'
 import { getCollection } from 'astro:content'
 import { SITE } from "@config";
 
@@ -30,7 +30,7 @@ const { page } = Astro.props
       ))
     }
   </div>
-  <Pagination page={page} />
+  <PaginationAudio page={page} />
 </Layout>
 
 <AudioPlayer />
