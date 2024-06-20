@@ -3,12 +3,7 @@ import PlayIcon from './icons/playIcon.astro'
 import PauseIcon from './icons/pauseIcon.astro'
 const { title, cover, desc, audioUrl, id, date, duration } = Astro.props
 
-import dayjs from 'dayjs'
-import localizedFormat from 'dayjs/plugin/localizedFormat'
-dayjs.extend(localizedFormat)
-
 let coverImage = cover ? cover : 'cover-images/defaultCover.jpg'
-const displayDate = dayjs(date).format('ll')
 
 function formatTime(secs) {
   if (isNaN(secs) || secs < 0) {
