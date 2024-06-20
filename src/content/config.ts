@@ -14,7 +14,6 @@ const blog = defineCollection({
       muftis: z.string(),
       featured: z.boolean().optional(),
       audio: z.string().optional(),
-      reference: z.string().optional(),
       draft: z.boolean().optional(),
       tags: z.array(z.string()).default(["others"]),
       ogImage: image()
@@ -29,3 +28,19 @@ const blog = defineCollection({
 });
 
 export const collections = { blog };
+
+const audioCollection = defineCollection({
+  type: 'content',
+  schema: z.object({
+    title: z.string(),
+    desc: z.string().optional(),
+    audioUrl: z.string(),
+    date: z.date().optional(),
+    source: z.string().optional(),
+    muftis: z.string().optional(),
+  }),
+})
+
+export const collection = {
+  audio: audioCollection,
+}
