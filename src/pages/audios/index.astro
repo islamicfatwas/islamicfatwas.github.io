@@ -4,21 +4,17 @@ import AudioCard from '@components/AudioCard.astro'
 import AudioPlayer from '@components/AudioPlayer.astro'
 import Pagination from '@components/PaginationAudio.astro'
 import { getCollection } from 'astro:content'
-import { siteConfig } from '@config'
+import { SITE } from "@config";
 
 export async function getStaticPaths({ paginate }) {
   const audioCollection = await getCollection('audio')
   audioCollection.sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf())
-  return paginate(audioCollection, { pageSize: siteConfig.pageSize })
+  return paginate(audioCollection, { pageSize: SITE.pageSize })
 }
 const { page } = Astro.props
 ---
 
-<Layout
-  title={siteConfig.title}
-  description={siteConfig.description}
-  ogImage={siteConfig.ogImage}
->
+<Layout>
   <div class="card mt-12 min-w-full bg-base-100 p-3 pb-3 shadow-md">
     {
       page.data.map((audio: any, index: number) => (
