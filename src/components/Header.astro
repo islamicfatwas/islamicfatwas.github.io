@@ -62,7 +62,7 @@ const { activeNav } = Astro.props;
               {t('nav.lang')}
             </a>
           </li>
-          <li>
+        </ul>
             <LinkButton
               href="/search/"
               className={`focus-outline p-3 sm:p-1 ${
@@ -79,8 +79,6 @@ const { activeNav } = Astro.props;
               </svg>
               <span class="sr-only">Search</span>
             </LinkButton>
-          </li>
-        </ul>
       </nav>
     </div>
   </div>
