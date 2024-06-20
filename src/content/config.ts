@@ -38,7 +38,7 @@ const ar = defineCollection({
       title: z.string(),
       source: z.string(),
       muftis: z.string(),
-      featured: z.boolean().optional(),
+      featured: z.boolean().optional().default(false),
       audio: z.string().optional(),
       draft: z.boolean().optional(),
       tags: z.array(z.string()).default(["others"]),
