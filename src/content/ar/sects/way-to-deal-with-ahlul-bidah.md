@@ -4,7 +4,7 @@ pubDatetime: 2024-06-21
 modDatetime: 2024-06-21
 hijriDate: 14 ذو الحجة 1445
 title: كيفية التعامل مع الباطنيين وأهل البدع
-slug: fatwa-398
+slug: fatwa-2847
 featured: false
 draft: false
 source: مجموع فتاوى ومقالات الشيخ ابن باز 28/47
