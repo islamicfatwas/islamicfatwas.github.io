@@ -31,34 +31,22 @@ const blog = defineCollection({
 
 export const collections = { blog };
 
-const articleCollection = defineCollection({
-  type: "content",
-  schema: ({ image }) =>
-    z.object({
-      author: z.string().default(SITE.author),
-      pubDatetime: z.date(),
-      modDatetime: z.date().optional().nullable(),
-      hijriDate: z.string(),
-      title: z.string(),
-      source: z.string(),
-      muftis: z.string(),
-      featured: z.boolean().optional(),
-      AudioPlayer: z.boolean().optional(),
-      audio: z.string().optional(),
-      reference: z.string().optional(),
-      draft: z.boolean().optional(),
-      tags: z.array(z.string()).default(["others"]),
-      ogImage: image()
-        .refine(img => img.width >= 1200 && img.height >= 630, {
-          message: "OpenGraph image must be at least 1200 X 630 pixels!",
-        })
-        .or(z.string())
-        .optional(),
-      description: z.string(),
-      canonicalURL: z.string().optional(),
-    }),
-});
+const audioCollection = defineCollection({
+  type: 'content',
+  schema: z.object({
+    title: z.string(),
+    description: z.string().optional(),
+    audioUrl: z.string(),
+    date: z.coerce.date(),
+    cover: z.string().optional(),
+    audio: z.number().optional(),
+    season: z.number().optional(),
+    audioType: z.string().optional(),
+    duration: z.coerce.string(), //duration in format hh:mm:ss
+    size: z.number(), // size in megabytes
+  }),
+})
 
-export const collection = {
-  'articles': articleCollection
-};
+export const collections = {
+  audio: audioCollection,
+}
