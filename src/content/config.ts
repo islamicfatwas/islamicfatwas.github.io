@@ -13,7 +13,6 @@ const blog = defineCollection({
       source: z.string(),
       muftis: z.string(),
       featured: z.boolean().optional(),
-      AudioPlayer: z.boolean().optional(),
       audio: z.string().optional(),
       reference: z.string().optional(),
       draft: z.boolean().optional(),
@@ -30,23 +29,3 @@ const blog = defineCollection({
 });
 
 export const collections = { blog };
-
-const audioCollection = defineCollection({
-  type: 'content',
-  schema: z.object({
-    title: z.string(),
-    description: z.string().optional(),
-    audioUrl: z.string(),
-    date: z.coerce.date(),
-    cover: z.string().optional(),
-    audio: z.number().optional(),
-    season: z.number().optional(),
-    audioType: z.string().optional(),
-    duration: z.coerce.string(), //duration in format hh:mm:ss
-    size: z.number(), // size in megabytes
-  }),
-})
-
-export const collections = {
-  audio: audioCollection,
-}
