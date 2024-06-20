@@ -5,7 +5,7 @@ modDatetime: 2020-11-29
 hijriDate: 14 ربيع الثاني 1442
 title: نواقض الإسلام
 slug: fatwa-414
-featured: true
+featured: false
 draft: false
 source: نور على الدرب 414
 muftis: الشيخ بن باز
