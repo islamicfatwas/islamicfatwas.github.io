@@ -5,7 +5,7 @@ modDatetime: 2020-11-08
 hijriDate: 14 ربيع الأول 1442
 title: من أول الأنبياء؟
 slug: fatwa-596
-featured: true
+featured: false
 draft: false
 source: نور على الدرب 596
 muftis: الشيخ بن باز
