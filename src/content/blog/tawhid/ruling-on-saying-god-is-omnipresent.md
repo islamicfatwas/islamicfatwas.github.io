@@ -1,5 +1,5 @@
 ---
-author: Dr. Rashid Al-Almani
+author: alsalafiyyah@icloud.com 
 pubDatetime: 2024-06-09
 modDatetime: 2024-06-09
 hijriDate: 03 Dhul-Hijjah 1445
@@ -18,8 +18,6 @@ tags:
 description:
   Saying that Allah exists in all places is the saying of the atheist Al-Hululiyyah (a Sufi sect that believes in indwelling). The foregoing is a false saying and it is tantamount to Kufr (disbelief) in God. 
 ---
-
-[Arabic](https://salafmanhaj.github.io/ar/posts/fatwa-16376/)
 
 ### Question: 
 
