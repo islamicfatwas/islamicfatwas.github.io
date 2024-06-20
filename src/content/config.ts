@@ -46,6 +46,6 @@ const audioCollection = defineCollection({
   }),
 })
 
-export const collections = {
+export const collection = {
   audio: audioCollection,
 }
