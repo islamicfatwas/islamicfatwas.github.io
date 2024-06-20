@@ -1,5 +1,5 @@
 ---
-author: Instagram @Alsalafiyyah
+author: alsalafiyyah@icloud.com
 pubDatetime: 2020-11-10
 modDatetime: 2020-11-10
 hijriDate: 24 Rabiul-Awal 1442
