@@ -8,6 +8,7 @@ export const SITE: Site = {
   ogImage: "og.jpg",
   lightAndDarkMode: true,
   postPerPage: 8,
+  pageSize: 5,
   scheduledPostMargin: 15 * 60 * 1000, // 15 minutes
 };
 
