@@ -1,5 +1,5 @@
 ---
-author: Dr. Rashid Al-Almani
+author: alsalafiyyah@icloud.com
 pubDatetime: 2023-07-25
 modDatetime: 2023-07-25
 hijriDate: 07 Muharam 1445
