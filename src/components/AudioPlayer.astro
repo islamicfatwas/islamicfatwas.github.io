@@ -15,10 +15,10 @@ const { href, ariaLabel, disabled = false } = Astro.props;
 
 {
   disabled ? (
-   <span></span>
+   <span aria-disabled={disabled}></span>
   ) : (
     <audio controls>
-     <span aria-disabled={disabled}>
+     <span>
       <source 
        src="{audio}" 
        type="audio/mpeg"/>
