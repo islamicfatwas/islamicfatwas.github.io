@@ -28,19 +28,3 @@ const blog = defineCollection({
 });
 
 export const collections = { blog };
-
-const audioCollection = defineCollection({
-  type: 'content',
-  schema: z.object({
-    title: z.string(),
-    desc: z.string().optional(),
-    audioUrl: z.string(),
-    date: z.date().optional(),
-    source: z.string().optional(),
-    muftis: z.string().optional(),
-  }),
-})
-
-export const collection = {
-  audio: audioCollection,
-}
