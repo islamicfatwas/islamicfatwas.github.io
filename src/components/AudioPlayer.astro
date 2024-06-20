@@ -1,0 +1,30 @@
+---
+import { getLangFromUrl, useTranslations } from '../i18n/utils';
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+
+export interface Props {
+  href: string;
+  ariaLabel?: string;
+  disabled?: boolean;
+}
+
+const { href, ariaLabel, disabled = false } = Astro.props;
+---
+
+{
+  disabled ? (
+   <span></span>
+  ) : (
+    <audio controls>
+     <span aria-disabled={disabled}>
+      <source 
+       src="{audio}" 
+       type="audio/mpeg"/>
+       <p>{t('audiowarning')}</p>
+     </audio>
+     <slot />
+    </span>
+  )
+}
