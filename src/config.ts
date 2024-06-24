@@ -2,9 +2,9 @@ import type { Site, SocialObjects } from "./types";
 
 export const SITE: Site = {
   website: "https://islamicfatwas.github.io/", // replace this with your deployed domain
-  author: "alsalafiyyah@icloud.com",
+  author: "instagram @Alsalafiyyah",
   desc: "Knowledge of Shariah",
-  title: "Manhaj of The Salaf",
+  title: "Islamic Fatwas",
   ogImage: "og.jpg",
   lightAndDarkMode: true,
   postPerPage: 8,
@@ -18,7 +18,7 @@ export const LOCALE = {
 } as const;
 
 export const ARABIC: Arabic = {
-  url: "https://islamicfatwas.github.io/ar",
+  url: "/ar/",
   muftis: "المفتي",
   copyright: "جميع الحقوق محفوظة",
   title: "منهج السلف",
@@ -124,7 +124,7 @@ export const SOCIALS_AR: SocialObjects = [
 export const SOCIALS: SocialObjects = [
   {
     name: "Github",
-    href: "https://github.com/salafmanhaj",
+    href: "https://github.com/islamicfatwas",
     linkTitle: ` ${SITE.title} on Github`,
     active: true,
   },
