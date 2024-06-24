@@ -27,13 +27,6 @@ const { currentPage, totalPages, paginatedPosts } = Astro.props;
         ))
       }
     </ul>
-    <ul>
-      {
-        arPostsEntries.map(({ data, slug }) => (
-          <Card href={`/fatwas/${slug}/`} frontmatter={data} />
-        ))
-      }
-    </ul>
   </Main>
 
   <Pagination
