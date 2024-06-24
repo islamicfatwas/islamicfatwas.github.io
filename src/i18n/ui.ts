@@ -7,7 +7,7 @@ export const defaultLang = 'en';
 
 export const ui = {
   en: {
-    'nav.title': 'Manhaj of the Salaf',
+    'nav.title': 'Ialamic Fatwas',
     'home': 'Home',
     'nav.fatwas': 'Fatwas',
     'nav.audios': 'Audios',
@@ -27,7 +27,7 @@ export const ui = {
     'audiowarning': 'Your browser does not support the audio element.',
   },
   ar: {
-    'nav.title': 'منهج السلف',
+    'nav.title': 'فتاوى إسلامية',
     'home': 'الرئيسية',
     'nav.fatwas': 'الفتاوى',
     'nav.audios': 'صوتيات',
