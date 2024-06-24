@@ -18,7 +18,7 @@ export const LOCALE = {
 } as const;
 
 export const ARABIC: Arabic = {
-  url: "https://salafmanhaj.github.io/ar",
+  url: "https://islamicfatwas.github.io/ar",
   muftis: "المفتي",
   copyright: "جميع الحقوق محفوظة",
   title: "منهج السلف",
@@ -66,38 +66,38 @@ export const LOGO_IMAGE = {
 export const taggedAR: TagObjects = [
   {
     name: "الحج والعمرة",
-    href: "https://salafmanhaj.github.io/ar/tags/الحج/",
+    href: "/ar/tags/الحج/",
   },
   {
     name: "الصلاة",
-    href: "https://salafmanhaj.github.io/ar/tags/الصلاة/",
+    href: "/ar/tags/الصلاة/",
   },
   {
     name: "الصيام",
-    href: "https://salafmanhaj.github.io/ar/tags/الصيام/",
+    href: "/ar/tags/الصيام/",
   },
   {
     name: "الزكاة",
-    href: "https://salafmanhaj.github.io/ar/tags/الزكاة/",
+    href: "/ar/tags/الزكاة/",
   },
   {
     name: "الطهارة",
-    href: "https://salafmanhaj.github.io/ar/tags/الطهارة/",
+    href: "/ar/tags/الطهارة/",
   },
   {
     name: "المعاملات",
-    href: "https://salafmanhaj.github.io/ar/tags/المعاملات/",
+    href: "/ar/tags/المعاملات/",
   },
   {
     name: "الجنائز",
-    href: "https://salafmanhaj.github.io/ar/tags/الجنائز/",
+    href: "/ar/tags/الجنائز/",
   },
 ];
 
 export const SOCIALS_AR: SocialObjects = [
   {
     name: "Github",
-    href: "https://github.com/salafmanhaj",
+    href: "https://github.com/islamicfatwas",
     linkTitle: `${ARABIC.title} on ${ARABIC.github}`,
     active: true,
   },
