@@ -14,7 +14,10 @@ export interface Props {
   paginatedPosts: CollectionEntry<"blog">[];
 }
 
-const { currentPage, totalPages, paginatedPosts } = Astro.props;
+const arPostsEntries = await CollectionEntry('blog', ({ id }) => {
+  return id.startsWith('audios/');
+});
+const { currentPage, totalPages, paginatedPosts, arPostsEntries } = Astro.props;
 ---
 
 <Layout title={`Fatwas | ${SITE.title}`}>
@@ -23,6 +26,13 @@ const { currentPage, totalPages, paginatedPosts } = Astro.props;
     <ul>
       {
         paginatedPosts.map(({ data, slug }) => (
+          <Card href={`/fatwas/${slug}/`} frontmatter={data} />
+        ))
+      }
+    </ul>
+    <ul>
+      {
+        arPostsEntries.map(({ data, slug }) => (
           <Card href={`/fatwas/${slug}/`} frontmatter={data} />
         ))
       }
