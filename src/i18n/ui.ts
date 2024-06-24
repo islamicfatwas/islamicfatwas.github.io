@@ -34,6 +34,7 @@ export const ui = {
     'audiowarning': 'Your browser does not support the audio element.',
     'pageNotfound': 'Page not found',  
     'rssURL': '/rss',
+    'gobackhome': 'Go back home',
   },
   ar: {
     'nav.title': 'فتاوى إسلامية',
@@ -56,5 +57,6 @@ export const ui = {
     'audiowarning': 'لا يدعم متصفحك عنصر الصوت',
     'pageNotfound': 'الصفحة غير موجودة',  
     'rssURL': '/ar/rss',
+    'gobackhome': 'الانتقال للصفحة الرئيسية',
   },
 } as const;
