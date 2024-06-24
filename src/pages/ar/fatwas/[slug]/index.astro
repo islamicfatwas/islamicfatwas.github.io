@@ -29,6 +29,9 @@ const { slug } = Astro.params;
 const { post } = Astro.props;
 
 const posts = await getCollection("ar");
+if (posts === undefined) {
+  return Astro.redirect("/ar/404");
+}
 
 const sortedPosts = getSortedPosts(posts);
 
