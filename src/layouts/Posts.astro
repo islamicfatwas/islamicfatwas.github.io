@@ -17,7 +17,7 @@ export interface Props {
 const arPostsEntries = await CollectionEntry('ar', ({ id }) => {
   return id.startsWith('audios/');
 });
-const { currentPage, totalPages, paginatedPosts, arPostsEntries } = Astro.props;
+const { currentPage, totalPages, paginatedPosts } = Astro.props;
 ---
 
 <Layout title={`Fatwas | ${SITE.title}`}>
