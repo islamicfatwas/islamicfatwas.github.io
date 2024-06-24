@@ -32,6 +32,8 @@ export const ui = {
     'shareon': 'Share on',
     'articles': 'Articles',
     'audiowarning': 'Your browser does not support the audio element.',
+    'pageNotfound': 'Page not found',  
+    'rssURL': '/rss',
   },
   ar: {
     'nav.title': 'فتاوى إسلامية',
@@ -52,5 +54,7 @@ export const ui = {
     'shareon': 'شارك على',
     'articles': 'مقالات',
     'audiowarning': 'لا يدعم متصفحك عنصر الصوت',
+    'pageNotfound': 'الصفحة غير موجودة',  
+    'rssURL': '/ar/rss',
   },
 } as const;
