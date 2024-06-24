@@ -1,7 +1,7 @@
 import type { Site, SocialObjects } from "./types";
 
 export const SITE: Site = {
-  website: "https://salafmanhaj.github.io/", // replace this with your deployed domain
+  website: "https://islamicfatwas.github.io/", // replace this with your deployed domain
   author: "alsalafiyyah@icloud.com",
   desc: "Knowledge of Shariah",
   title: "Manhaj of The Salaf",
