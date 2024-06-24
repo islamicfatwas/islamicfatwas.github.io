@@ -1,5 +1,5 @@
 ---
-author: Dr. Rashid Al-Almani
+author: instagram @Alsalafiyyah
 pubDatetime: 2024-06-09
 modDatetime: 2024-06-09
 hijriDate: 03 ذو الحجة 1445
@@ -15,8 +15,6 @@ tags:
 description:
   لا يجوز ذلك؛ لأن الموسيقى وحدها محرمة، وعمل الابتهالات مصحوبة بالموسيقى مهزلة
 ---
-
-[English](https://salafmanhaj.github.io/posts/fatwa-6914%E2%80%8F/)
 
 
 ### السؤال : 
