@@ -1,5 +1,5 @@
 ---
-author: Dr. Rashid Al-Almani
+author: instagram @Alsalafiyyah
 pubDatetime: 2024-06-09
 modDatetime: 2024-06-09
 hijriDate: 03 Dhul-Hijjah 1445
@@ -18,8 +18,6 @@ tags:
 description:
   This is not permissible, for music in itself is haram and making supplications accompanied by music is mockery and mixing worship with amusement. 
 ---
-
-[Arabic](https://salafmanhaj.github.io/ar/posts/fatwa-6914%E2%80%8F/)
 
 ### Question: 
 
