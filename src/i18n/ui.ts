@@ -4,6 +4,13 @@ export const languages = {
 };
 
 export const defaultLang = 'en';
+export const locales = ["en", "ar"]
+export const collectionDirectoryNames: PathNames = {
+	blog: {
+		en: 'blog',
+		ar: 'blog'
+	},
+}
 
 export const ui = {
   en: {
