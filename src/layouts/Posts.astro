@@ -14,7 +14,7 @@ export interface Props {
   paginatedPosts: CollectionEntry<"blog">[];
 }
 
-const arPostsEntries = await CollectionEntry('blog', ({ id }) => {
+const arPostsEntries = await CollectionEntry('ar', ({ id }) => {
   return id.startsWith('audios/');
 });
 const { currentPage, totalPages, paginatedPosts, arPostsEntries } = Astro.props;
